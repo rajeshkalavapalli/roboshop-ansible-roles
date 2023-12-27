@@ -24,4 +24,4 @@
 
 - name: "load {{component}} data"
   ansible.builtin.shell: "mongo --host mongodb.daws76s.online < /app/schema/{{component}}.js"
-  when: {{entries_count.stdout}} == "0" # keep double quotes
+  when: entries_count.stdout == "0" # keep double quotes
