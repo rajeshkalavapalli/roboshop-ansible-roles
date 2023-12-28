@@ -11,3 +11,4 @@
   ansible.builtin.file:
     path: "/app/*"
     state: absent
+    force: yes
