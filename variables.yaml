@@ -1,1 +1,2 @@
-MONGODB_HOST: mongod.daws76s.online # submit your host
+MONGODB_HOST: mongodb.daws76s.online # submit your host
+REDIS_HOST: redis.daws76s.online
