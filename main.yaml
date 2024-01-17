@@ -1,5 +1,5 @@
 - name: "install {{component}}"
-  hosts: "{{component}}"
+  hosts: "{{component}} | localhost"
   vars_files:
   - variables.yaml
   become: yes
